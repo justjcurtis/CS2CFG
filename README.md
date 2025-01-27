@@ -43,13 +43,6 @@ This README includes installation instructions, a table of binds and aliases, an
      - `exec prac` (loads the practice config).
      - `exec unprac` (reverts practice changes).
 
-4. **Set Up Autoexec**  
-   To make the autoexec load automatically every time the game launches, add the following launch option in Steam:
-
-   ```
-   -exec autoexec
-   ```
-
 ---
 
 ## Configuration Files Overview
