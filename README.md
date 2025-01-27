@@ -37,11 +37,11 @@ This README includes installation instructions, a table of binds and aliases, an
 
 3. **Run the Configs**  
    - Open CS2.
-   - Launch the developer console (enable it in settings if it’s not already).
+   - Open the developer console (enable it in settings if it’s not already).
    - Type the following commands to execute the respective configs:
-     - `exec autoexec` (loads the main config).
-     - `exec prac` (loads the practice config).
-     - `exec unprac` (reverts practice changes).
+     - `autoexec` is executed every time you open CS2, so either quit and reopen the game or in the terminal type `1` and press enter
+     - `prac` load into a competitive practice game on the map you want and then in the terminal type `p` and press enter
+     - `unprac/reset` open the terminal and type `r` and press enter to reset any changes made by the `prac` config
 
 ---
 
@@ -75,12 +75,15 @@ This README includes installation instructions, a table of binds and aliases, an
 | `mwheelup`      | Inspect weapon.                                                           |
 | `shift`         | Duck (customized duck bind).                                              |
 | `1` - `0`       | Select weapon slots.                                                      |
-| `f`/`g`/`v`     | Custom slot binds for faster item switching.                              |
-| `x`             | Drop bomb (or current item).                                              |
+| `4`             | Switch to Smoke grenade.                                                  |
+| `f`             | Switch to Flashbang.                                                      |
+| `g`             | Switch to HE grenade.                                                     |
+| `v`             | Switch to Decoy grenade.                                                  |
+| `x`             | Drop bomb and switch back to weapon.                                      |
 | `'`             | Drop all items.                                                           |
 | `t`             | Drop current weapon.                                                      |
 | `capslock`      | Voice record.                                                             |
-| `MOUSE4`        | Quick switch to primary/secondary weapons.                                |
+| `MOUSE4`        | Switch to knife/zeus.                                                     |
 | `del`           | Set volume to `0.2`.                                                      |
 | `end`           | Set volume to `0.05`.                                                     |
 | `LEFTARROW`     | Skip demo back by 320 ticks.                                              |
@@ -104,11 +107,6 @@ This README includes installation instructions, a table of binds and aliases, an
 | `1`                 | Execute `autoexec.cfg`.                                                       |
 | `p`                 | Execute `prac.cfg`.                                                           |
 | `r`                 | Execute `unprac.cfg`.                                                         |
-| `crosshairswitch`   | Cycle through crosshair presets (`crosshair1`, `crosshair2`, `crosshair3`).   |
-| `+dropbomb`         | Drop the bomb (or current item) with slot switching.                          |
-| `+dropall`          | Drop all items.                                                               |
-| `+qs`, `+hs`, `+ffw20`, `+ffw50` | Set demo playback speed to quick-switch rates (slow motion, fast forward). |
-| `toggle_crosshair_outline` | Toggle crosshair outline thickness between on/off states.              |
 
 ---
 
